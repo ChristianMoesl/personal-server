@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: 'postgres:16'
+    volumes:
+      - ./db-data:/var/lib/postgresql/data
+    environment:
+      - 'POSTGRES_DB=webserver'
+      - 'POSTGRES_PASSWORD=password'
+      - 'POSTGRES_USER=user'
+    ports:
+      - '25432:5432'

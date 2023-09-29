@@ -1,3 +1,8 @@
+db-data
+build
+.gradle
+.DS_Store
+
 # Compiled class file
 *.class
 
@@ -9,6 +14,9 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+# Intelij 
+.idea
 
 # Package Files #
 *.jar
